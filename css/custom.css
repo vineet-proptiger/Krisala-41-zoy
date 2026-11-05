@@ -90,19 +90,32 @@
   }
 }
 
-/* Sharp Pure White Price (No Blur) */
+/* Sharp Pure White Price On-Off Blinking Effect */
 @keyframes priceBlinkOnOff {
-  0%, 100% {
+  0%, 49% {
     opacity: 1;
-    color: #ffffff;
-    text-shadow: none;
+    visibility: visible;
+  }
+  50%, 100% {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
 .price-bling-anim {
   display: inline-block;
+  animation: priceBlinkOnOff 1s infinite;
   color: #ffffff !important;
   text-shadow: none !important;
+  will-change: opacity, visibility;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .price-bling-anim {
+    animation: none;
+    opacity: 1;
+    visibility: visible;
+  }
 }
 
 @keyframes fadeUp {
