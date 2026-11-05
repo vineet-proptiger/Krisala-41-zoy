@@ -2,7 +2,7 @@
    PROJECT CONFIGURATION (Browser JavaScript)
 =============================================================== */
 
-window.PROJECT_ID = "3528362";
+window.PROJECT_ID = "3528154";
 window.PROJECT_NAME = "Krisala 41 Zoy";
 window.DEVELOPER_NAME = "Krisala Developers";
 window.RERA_NO = "PR1260002500133";
@@ -15,7 +15,7 @@ window._cLink = window.WHATSAPP_URL;
 window.CITY_DISPLAY = "Pune";
 window.CITY_SLUG = "pune";
 window.CITY_ID = "2";
-window.SHEET_NAME = "Bangalore";
+window.SHEET_NAME = "Pune";
 window.SECRET_KEY = "6c7f9ad8b2a1e0f4d5a8c0b9f6e2a4d190";
 
 window.SHEET_WEBHOOK = "https://script.google.com/macros/s/AKfycbw2MGrCI0lVGZZD049RrqM52ubNIHHZLzuk7mIg9KMVacJREV9sw05jnPMvT5OeNtWt/exec";
